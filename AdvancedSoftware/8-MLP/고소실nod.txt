@@ -1,0 +1,28 @@
+cnn - 네트워크
+node로 그물처럼 구성돼서
+cnn: 각 레이어의 노드가 wieght를 가짐
+weight는 각 수치를 가진 채로 예를 들어 이미지의 특정 중요부분을 강조
+wieght가 적당히 들어있어야 output이 잘 나옴
+output이 잘 나오려면 --> wieght의 변경 필수(by 학습)
+이 학습 --> 원하는 결과 위한 pattern 익히게
+
+how? forward 연산 + backward 연산
+이번 실습에서 한 것: 네트워크로 노드가 짜여진 상황에서 ward 2개 연산 함수가
+이미 있으니, 여기서 적당한 인자만 넘겨본 것
+
+imagenet - 이미지 label화시킨 1400여만장의 사진 사이트
+
+레이어 뉴런 역전파알고리즘
+성능측전 기준 중 loss. 이를 낮추는 게 중요
+보폭 - learning rate. network가 이 보폭을 기반으로 증감을 감지, 점차 가장 낮은
+곳으로 가려 함
+만일 계속 올라가는 데 지치고 그냥 내려갔는데, 실제로 더 낮은 곳이 있다면?
+gradient값을 시그마를 넣었지만, 이젠 gradient를 고정된 valuer가 아닌, 가속도와
+확률을 넣음(stochastic). 
+sigmoid함수의 도함수 역시 사용. 
+overpitting(포화상태) : weigth를바꿔 산을 넘어야 하는데, 이를 넘어가지 못함?
+머신러닝-이를 넘어가는 게 목표
+
+ImageRecognition (==classification, 분류)
+objectDetection - recognition 뒤, ssd란 알고리즘 추가(single shot detection)
+분류된 것에 대해, 이미지가 어딨다는 걸 알아내어(by sift), 박스를 치는 알고리즘

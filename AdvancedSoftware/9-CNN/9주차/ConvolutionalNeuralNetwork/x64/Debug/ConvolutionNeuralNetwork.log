@@ -1,0 +1,10 @@
+﻿  main.cpp
+C:\Users\is7se\OneDrive\바탕 화면\수업\고소실\9주차\9주차\ConvolutionalNeuralNetwork\3rdparty\include\openblas\common_x86.h(101,41): warning C4311: '형식 캐스트': 'void *'에서 'unsigned long'(으)로 포인터가 잘립니다.
+C:\Users\is7se\OneDrive\바탕 화면\수업\고소실\9주차\9주차\ConvolutionalNeuralNetwork\3rdparty\include\openblas\common_x86.h(101,41): warning C4302: '형식 캐스트': 'void *'에서 'unsigned long'(으)로 잘립니다.
+C:\Users\is7se\OneDrive\바탕 화면\수업\고소실\9주차\9주차\ConvolutionalNeuralNetwork\cnn.h(301,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\is7se\OneDrive\바탕 화면\수업\고소실\9주차\9주차\ConvolutionalNeuralNetwork\cnn.h(319,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\is7se\OneDrive\바탕 화면\수업\고소실\9주차\9주차\ConvolutionalNeuralNetwork\cnn.h(326,4): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\is7se\OneDrive\바탕 화면\수업\고소실\9주차\9주차\ConvolutionalNeuralNetwork\cnn.h(332,5): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\is7se\OneDrive\바탕 화면\수업\고소실\9주차\9주차\ConvolutionalNeuralNetwork\3rdparty\include\mnist.h(24,19): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\is7se\OneDrive\바탕 화면\수업\고소실\9주차\9주차\ConvolutionalNeuralNetwork\3rdparty\include\mnist.h(32,19): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ConvolutionNeuralNetwork.vcxproj -> C:\Users\is7se\OneDrive\바탕 화면\수업\고소실\9주차\9주차\x64\Debug\ConvolutionNeuralNetwork.exe
